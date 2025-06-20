@@ -1,0 +1,33 @@
+// script.js
+document.getElementById("userForm").addEventListener("submit", function (e) {
+  e.preventDefault(); // Previene recarga de página
+
+  const nameInput = document.getElementById("name").value.trim();
+  const ageInput = document.getElementById("age").value.trim();
+  const age = Number(ageInput);
+  const messageDiv = document.getElementById("message");
+
+  // Limpia mensaje anterior
+  messageDiv.textContent = "";
+
+  if (nameInput === "" || ageInput === "") {
+    messageDiv.textContent = "Por favor, completa todos los campos.";
+    messageDiv.style.color = "red";
+    return;
+  }
+
+  if (isNaN(age)) {
+    console.error("Edad no válida.");
+    messageDiv.textContent = "Error: La edad debe ser un número válido.";
+    messageDiv.style.color = "red";
+    return;
+  }
+
+  if (age < 18) {
+    messageDiv.textContent = `Hola ${nameInput}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`;
+    messageDiv.style.color = "#ff9900";
+  } else {
+    messageDiv.textContent = `Hola ${nameInput}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`;
+    messageDiv.style.color = "#007bff";
+  }
+});

@@ -1,0 +1,67 @@
+body {
+      
+  background-image: url("https://wallpapers.com/images/high/cool-4k-ultra-hd-v9u85j2vvzaizksb.webp");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  height: 300px; 
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+     
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff085a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #f1c605;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff085a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
