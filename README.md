@@ -1,15 +1,15 @@
 # Entrenamiento-M-dulo-3-Semana-1
 # 🎯 Sistema Interactivo - JavaScript, HTML y CSS
 
-Este es un proyecto básico e interactivo para validar la edad de un usuario. El objetivo es practicar la captura de datos, validación con condicionales y mostrar mensajes personalizados según la edad ingresada.
+Este es un proyecto básico e interactivo para validar la edad de un usuario a la hora de ingresar al evento. El objetivo es practicar la captura de datos, validación con condicionales y mostrar mensajes personalizados según la edad ingresada.
 
 ## 🚀 Funcionalidades
 
 - Captura de nombre y edad desde formulario HTML.
 - Validación de campos vacíos y entradas no numéricas.
 - Mensajes personalizados:
-  - 👶 Menor de edad: mensaje motivador + sonido alegre.
-  - 🧑 Mayor de edad: mensaje firme + sonido motivador.
+  - 👶 Menor de edad: mensaje motivador + sonido Trsite.
+  - 🧑 Mayor de edad: mensaje firme + Sonido Rave.
 - Estilos personalizados con CSS.
 - Fondo visual atractivo.
 - Sonidos diferentes al presionar "Enviar", según edad.
@@ -24,8 +24,8 @@ Entrenamiento-modulo-3-semana-1
         ├── js
         │   └──sistema_interactivo.js
         ├── sounds
-        │   ├── menor.mp3
-        │   └── mayor.mp3
+        │   ├── rave.mp3
+        │   └── triste.mp3
         ├──index.html
         ├──LICENSE
         ├──Readme.md
