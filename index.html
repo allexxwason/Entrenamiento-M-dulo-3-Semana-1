@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sistema interactivo para gestionar eventos de fiesta privada.">
+  <meta name="keywords" content="Fiesta, Eventos, Interactivo, Sistema">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="application-name" content="Sistema Interactivo Fiesta Privada">
+  <meta name="sitedomain" content="https://github.com/allexxwason/SPA_IMC.git">
+  <meta name="organization" content="allexxwason">
+  <meta name="author" content="Alexander Jose Vasquez Bolivar">
+  <meta name="designer" content="Alexander Jose Vasquez Bolivar">
+  <meta name="copyright" content="© 2025 allexxwason. All rights reserved">
+  <meta name="language" content="Spanish">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <title>Sistema Interactivo</title>
+  <link rel="stylesheet" href="SRC/css/styles.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <img src="SRC/img/logo.png" alt="Logo de Fiesta Privada" class="logo">
+    <h1>Sistema Interactivo de Fiesta Privada</h1>
+    <p>¡Bienvenido! Por favor, completa el formulario para mandarte la info de la Fiesta.</p>
+  </header>
+
+  <main class="container">
+    <h2>Fiesta Privada</h1>
+    <form id="userForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Edad:</label>
+      <input type="number" id="age" name="age" required>
+
+      <button type="submit">Enviar</button>
+     
+    </form>
+    <div id="message"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 Fiesta Privada. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="SRC/js/sistema_interactivo.js"></script>
+  <audio id="soundMinor" src="SRC/sounds/triste.mp3"></audio>
+  <audio id="soundMajor" src="SRC/sounds/rave.mp3"></audio>
+
+</body>
+</html>
